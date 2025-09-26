@@ -1,0 +1,62 @@
+A government research lab has concluded that an artificial sweetener commonly
+used in diet soda pop will cause death in laboratory mice. A friend of yours is
+desperate to lose weight but cannot give up soda pop. Your friend wants to know
+how much diet soda pop it is possible to drink without dying as a result. Write a
+program to supply the answer. The program has no input but does have defined
+constants for the following items: the amount of artificial sweetener needed to kill
+a mouse, the weight of the mouse, the starting weight of the dieter, and the desired
+weight of the dieter. To ensure the safety of your friend, be sure the program uses
+the weight at which the dieter will stop dieting, rather than the dieter’s current
+weight, to calculate how much soda pop the dieter can safely drink. You may use
+any reasonable values for these defined constants. Assume that diet soda contains
+1/10th of 1% artificial sweetener. Use another named constant for this fraction.
+You may want to express the percent as the double value 0.001. (If your program
+turns out not to use a defined constant, you may remove that defined constant
+from your program.)
+
+===========================================================
+
+Program Documentation: Diet Soda Safety Calculator
+
+Overview
+This program calculates the safe amount of diet soda a person can consume
+without risking death due to the artificial sweetener it contains.
+The calculation is based on the lethal dose of sweetener for a mouse,
+the weight of the mouse, and the desired weight of the person.
+
+Features
+1. Calculates the lethal dose of sweetener for a person based on their desired weight.
+2. Determines the safe amount of diet soda (in grams) that can be consumed.
+3. Outputs the safe quantity of soda in grams.
+
+Code Explanation
+1. Package Declaration: The program is part of the `Projects_set1.Project_04_Diet` package.
+2. Constants:
+   - `SWEETNER_TO_KILL_MOUSE`: Amount of sweetener that kills a mouse (in grams).
+   - `WEIGHT_MOUSE`: Weight of the mouse (in grams).
+   - `STARTING_WEIGHT`: Initial weight of the person (not used in calculations).
+   - `DESIRED_WEIGHT`: Target weight of the person (used for safety calculations).
+   - `PERCENTAGE_SWEETNER`: Proportion of sweetener in diet soda (0.001 or 0.1%).
+3. Main Method:
+   - Calculates the lethal dose of sweetener for the person (`fatalGrams`).
+   - Computes the safe amount of soda (`safeDosage`) based on the sweetener content.
+   - Outputs the safe quantity of soda in grams.
+
+How to Run
+1. Compile the program using `javac Diet.java`.
+2. Run the program using `java Projects_set1.Project_04_Diet.Diet`.
+3. The program will display the safe quantity of diet soda in grams.
+
+Assumptions
+- The desired weight is used for safety calculations, not the starting weight.
+- The sweetener proportion in diet soda is 0.1% (0.001).
+
+Limitations
+- The program does not handle user input; all values are hardcoded.
+- Assumes all constants are accurate and reasonable.
+
+Enhancements
+- Allow user input for weights and sweetener proportions.
+- Add input validation to ensure realistic values.
+
+============================================================
