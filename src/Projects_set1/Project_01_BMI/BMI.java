@@ -7,7 +7,7 @@ Write a program that calculates and outputs the BMI. Assume various input values
 wherever required.
  */
 
-package Projects_set1.BMI;
+package Projects_set1.Project_01_BMI;
 
 import java.util.Scanner;
 
