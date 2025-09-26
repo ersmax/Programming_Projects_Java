@@ -1,2 +1,2 @@
-public class playground {
-}
+
+public class playground {}
