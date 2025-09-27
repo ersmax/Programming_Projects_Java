@@ -1,5 +1,5 @@
 
-public class playground {
+public class Playground {
     /*
     Write a program that outputs the number of hours, minutes, and seconds that
     corresponds
