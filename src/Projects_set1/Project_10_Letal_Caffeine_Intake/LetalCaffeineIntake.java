@@ -1,12 +1,3 @@
-/*
-Scientists estimate that roughly 10 grams of caffeine consumed at one time is a
-lethal overdose. Write a program with a variable that holds the number of milligrams
-of caffeine in a drink and outputs how many drinks it takes to kill a person.
-A 12-ounce can of cola has approximately 34 mg of caffeine, while a 16-ounce cup
-of coffee has approximately 160 mg of caffeine.
- */
-
-
 package Projects_set1.Project_10_Letal_Caffeine_Intake;
 
 public class LetalCaffeineIntake {
