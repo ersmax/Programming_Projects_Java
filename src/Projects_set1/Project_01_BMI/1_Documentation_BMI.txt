@@ -5,16 +5,17 @@ BMI = (Weight in kilograms)/(Height in meters)^2
 Write a program that calculates and outputs the BMI. Assume various input values
 wherever required.
 
-=========================================================
+---
 
-Assumptions
+## Assumptions
 The user inputs valid numerical values for weight and height.
 Weight is in kilograms, and height is in meters.
-Limitations
+
+## Limitations
 The program does not handle invalid input (e.g., non-numeric values).
 It does not categorize the BMI into weight categories (e.g., underweight, normal, overweight).
-Enhancements
+
+## Enhancements
 Add input validation to handle invalid or negative values.
 Include BMI categorization based on standard BMI ranges.
 
-=========================================================

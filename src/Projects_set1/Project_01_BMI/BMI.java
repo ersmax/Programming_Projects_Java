@@ -2,6 +2,12 @@ package Projects_set1.Project_01_BMI;
 
 import java.util.Scanner;
 
+/**
+ * This program calculates BMI
+ * given weight and height
+ *
+ * @author admin
+ */
 public class BMI {
 
     /**

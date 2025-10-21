@@ -4,11 +4,9 @@ and the number of years (no_of_yrs) is 5. Use suitable data types to declare the
 variables. Simple interest is calculated using the following equation:
 Simple interest = (Principal amount * Interest rate * Number of years) / 100
 
-========================================================
+---
 
-The program logic in `Interest_calculator.java` is correct.
-It calculates simple interest using the formula:
+The program calculates simple interest using the formula:
 
 Simple Interest = (Principal Amount * Interest Rate * Number of Years) / 100
 
-=========================================================

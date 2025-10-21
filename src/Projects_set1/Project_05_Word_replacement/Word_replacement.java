@@ -1,7 +1,9 @@
 package Projects_set1.Project_05_Word_replacement;
 
 /**
- * This class replaces the first occurrence of a word in a sentence with another word
+ * This program replaces a word in a sentence with another word.
+ *
+ * @author admin
  */
 public class Word_replacement {
 
@@ -14,7 +16,6 @@ public class Word_replacement {
      * Postcondition: prints the modified sentence
      * @param args
      */
-
     public static void main(String[] args) {
         String sentence = " I hate you, but I hate you, and I hate you  ";
         String newSentence;

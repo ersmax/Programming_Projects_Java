@@ -1,7 +1,8 @@
 package Projects_set1.Project_06_Interest_calculator;
 
 /**
- * This class calculates the simple interest on a loan
+ * This program calculates the simple interest on a loan
+ * @author admin
  */
 public class Interest_calculator {
 

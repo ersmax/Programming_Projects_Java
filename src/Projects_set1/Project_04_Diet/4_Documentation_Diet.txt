@@ -14,22 +14,22 @@ You may want to express the percent as the double value 0.001. (If your program
 turns out not to use a defined constant, you may remove that defined constant
 from your program.)
 
-===========================================================
+---
 
-Program Documentation: Diet Soda Safety Calculator
+# Program Documentation: Diet Soda Safety Calculator
 
-Overview
+## Overview
 This program calculates the safe amount of diet soda a person can consume
 without risking death due to the artificial sweetener it contains.
 The calculation is based on the lethal dose of sweetener for a mouse,
 the weight of the mouse, and the desired weight of the person.
 
-Features
+## Features
 1. Calculates the lethal dose of sweetener for a person based on their desired weight.
 2. Determines the safe amount of diet soda (in grams) that can be consumed.
 3. Outputs the safe quantity of soda in grams.
 
-Code Explanation
+## Code Explanation
 1. Package Declaration: The program is part of the `Projects_set1.Project_04_Diet` package.
 2. Constants:
    - `SWEETNER_TO_KILL_MOUSE`: Amount of sweetener that kills a mouse (in grams).
@@ -42,21 +42,19 @@ Code Explanation
    - Computes the safe amount of soda (`safeDosage`) based on the sweetener content.
    - Outputs the safe quantity of soda in grams.
 
-How to Run
+## How to Run
 1. Compile the program using `javac Diet.java`.
 2. Run the program using `java Projects_set1.Project_04_Diet.Diet`.
 3. The program will display the safe quantity of diet soda in grams.
 
-Assumptions
+## Assumptions
 - The desired weight is used for safety calculations, not the starting weight.
 - The sweetener proportion in diet soda is 0.1% (0.001).
 
-Limitations
+## Limitations
 - The program does not handle user input; all values are hardcoded.
 - Assumes all constants are accurate and reasonable.
 
-Enhancements
+## Enhancements
 - Allow user input for weights and sweetener proportions.
 - Add input validation to ensure realistic values.
-
-============================================================

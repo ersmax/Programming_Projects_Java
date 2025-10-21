@@ -10,21 +10,19 @@ first = "walt";
 last = "savitch";
 the program should create a new string with the text “Altway Avitchsay” and print it.
 
-==========================================================
+---
 
-Program Documentation: Pig Latin Name Converter
-
-Overview
+## Overview
 This program converts a given first and last name into Pig Latin format.
 The first letter of each name is moved to the end, followed by the suffix "ay".
 The first letter of the resulting Pig Latin names is capitalized.
 
-Features
+## Features
 1. Converts a first and last name to Pig Latin format.
 2. Capitalizes the first letter of the Pig Latin names.
 3. Outputs the full name in Pig Latin format.
 
-Code Explanation
+## Code Explanation
 1. Package Declaration: The program is part of the `Projects_set1.Project_03_Latin_name` package.
 2. Constants:
    - `PREFIX`: The suffix "ay" added to the end of each name in Pig Latin.
@@ -36,21 +34,19 @@ Code Explanation
      - Capitalizes the first letter of the resulting names.
    - Outputs the full name in Pig Latin format.
 
-How to Run
+## How to Run
 1. Compile the program using `javac LatinName.java`.
 2. Run the program using `java Projects_set1.Project_03_Latin_name.LatinName`.
 3. The program will display the full name in Pig Latin format.
 
-Assumptions
+## Assumptions
 - The input names are in lowercase.
 - The names contain only alphabetic characters.
 
-Limitations
+## Limitations
 - The program does not handle invalid input (e.g., names with non-alphabetic characters or empty strings).
 - The program assumes the input names are hardcoded and does not accept user input.
 
-Enhancements
+## Enhancements
 - Allow user input for the first and last names.
 - Add input validation to handle invalid or empty names.
-
-===========================================================

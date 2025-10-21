@@ -3,7 +3,9 @@ package Projects_set2.Project_01_Babylonian_Algorithm;
 import java.util.Scanner;
 
 /**
- * This class implements the Babylonian algorithm to approximate the square root of a positive number.
+ * This class implements the Babylonian algorithm
+ * to approximate the square root of a positive number.
+ * @author admin
  */
 public class BabylonianAlgorithm {
 

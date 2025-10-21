@@ -4,19 +4,19 @@ to 50,391 total seconds. The output should be 13 hours, 59 minutes,
 and 51 seconds. Test your program with a different number of total seconds to
 ensure that it works for other cases.
 
-==========================================================
+---
 
-Overview:
+## Overview:
 This program converts a given number of seconds into hours, minutes, and seconds.
 It demonstrates how to perform integer division and modulus operations to calculate time components.
 
-Features
+## Features
 1. Converts a predefined number of seconds (`SECONDS`) into hours, minutes, and seconds.
 2. Outputs the result in two formats:
    - Using step-by-step calculations.
    - Using a direct formula.
 
-Code Explanation
+## Code Explanation
 1. Package Declaration: The program is part of the `Projects_set1.Project_07_Time_conversion` package.
 2. Constants:
    - `SECONDS`: The total number of seconds to be converted.
@@ -32,22 +32,20 @@ Code Explanation
 4. Output:
    - Prints the results of both methods for comparison.
 
-How to Run
+## How to Run
 1. Compile the program using `javac Time_conversion.java`.
 2. Run the program using `java Projects_set1.Project_07_Time_conversion.Time_conversion`.
 3. The program will display the converted time in hours, minutes, and seconds.
 
-Assumptions
+## Assumptions
 - The total seconds (`SECONDS`) is predefined as a constant.
 - The program does not handle user input.
 
-Limitations
+## Limitations
 - The program only works with positive integers for `SECONDS`.
 - The value of `SECONDS` is hardcoded and cannot be changed at runtime.
 
-Enhancements
+## Enhancements
 - Allow user input for the total seconds.
 - Add error handling for invalid or negative input values.
 - Format the output to display leading zeros for single-digit values (e.g., `01:59:51`).
-
-==============================================================

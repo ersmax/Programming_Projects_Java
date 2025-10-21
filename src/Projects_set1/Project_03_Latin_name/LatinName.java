@@ -1,10 +1,10 @@
 package Projects_set1.Project_03_Latin_name;
 
+
 /**
- * Class LatinName
- * Description: Converts a given first and last name to Pig Latin format
- * Preconditions: first and last names are in lowercase
- * Postconditions: Prints the full name in Pig Latin format
+ * This program prints a full name in pig latin format
+ * @author admin
+ *
  */
 public class LatinName {
 

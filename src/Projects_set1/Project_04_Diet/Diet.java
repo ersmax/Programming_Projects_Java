@@ -1,7 +1,10 @@
 package Projects_set1.Project_04_Diet;
 
-/*
- * This class calculates the safe quantity of diet soda pop in grams
+/**
+ * This program calculates the safe quantity of diet soda pop (in grams)
+ * that a person can consume based on the lethal dose of sweetener for a mouse.
+ *
+ * @author admin
  */
 public class Diet {
 

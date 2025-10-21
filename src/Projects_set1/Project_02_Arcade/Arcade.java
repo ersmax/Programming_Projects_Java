@@ -1,5 +1,12 @@
 package Projects_set1.Project_02_Arcade;
 
+/**
+ * This program calculates how many candy bars and gumballs can be obtained
+ * with a given number of coupons, prioritizing candy bars first.
+ *
+ * @author admin
+ * @version 1.0
+ */
 public class Arcade {
     public static final int CANDY_BAR_PRICE = 10, GUMBALL_PRICE = 3;
 

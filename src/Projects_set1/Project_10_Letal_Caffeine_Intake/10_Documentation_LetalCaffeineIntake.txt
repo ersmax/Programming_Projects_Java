@@ -4,42 +4,11 @@ of caffeine in a drink and outputs how many drinks it takes to kill a person.
 A 12-ounce can of cola has approximately 34 mg of caffeine, while a 16-ounce cup
 of coffee has approximately 160 mg of caffeine.
 
-==============================================================
+---
 
-Overview
-This documentation explains the design choices made in the provided code for calculating
-the ideal body weight and determining the lethal caffeine intake.
-The choices aim to ensure clarity, maintainability, and correctness.
+# Lethal Caffeine Intake Calculation
 
-Ideal Body Weight Calculation
-
-Design Choices
-1. Constants for Readability:
-   - `WEIGHT_PER_INCH` and `WEIGHT_BASE` are defined as constants
-      to make the code more readable and maintainable.
-      These values represent fixed rules for the calculation.
-
-2. Validation of Input:
-   - The `if` condition ensures that the height
-     in feet is between 5 and 7 (inclusive) and the height in inches
-     is between 0 and 11. This prevents invalid inputs from being processed.
-
-3. Use of `Math.max`:
-   - The `Math.max(heightFeet - 5, 0)` ensures that the calculation
-     does not use negative values for additional feet, which could occur
-     if `heightFeet` is less than 5.
-
-4. Separation of Logic:
-   - The calculation of `idealBodyWeight` is separated from the validation logic,
-     making the code easier to understand and debug.
-
-5. Output Messages:
-   - Clear messages are printed to indicate either the calculated ideal body weight
-     or an error for invalid inputs.
-
-Lethal Caffeine Intake Calculation
-
-Design Choices
+## Design Choices
 1. Constant for Lethal Dose:
    - `LETHAL_CAFFEINE` is defined as a constant to represent the fixed lethal dose
       of caffeine (10,000 mg). This makes the code more maintainable.
@@ -58,5 +27,3 @@ Design Choices
    - The program provides detailed output,
      including both the manual rounding result and the result using `Math.ceil`,
      for clarity and comparison.
-
-==============================================================

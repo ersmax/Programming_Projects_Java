@@ -1,7 +1,12 @@
 package Projects_set1.Project_07_Time_conversion;
 
 /**
- * This class converts seconds into hours, minutes, and seconds.
+ * This program converts a given number of seconds (SECONDS)
+ * into hours, minutes, and seconds.
+ * It demonstrates two methods of conversion:
+ * step-by-step calculation and direct calculation using division and modulus.
+ *
+ * @author admin
  */
 public class Time_conversion {
 

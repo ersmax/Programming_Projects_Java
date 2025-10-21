@@ -1,7 +1,11 @@
 package Projects_set1.Project_09_Ideal_Body_Weight;
-
 /**
- * This class calculates the ideal body weight
+ * This program calculates the ideal body weight based on height in feet and inches.
+ * The formula used is:
+ * - Start with a base weight of 110 pounds for the first 5 feet.
+ * - Add 5 pounds for each additional inch over 5 feet.
+ * - Add 60 pounds for each additional foot over 5 feet.
+ * @author admin
  */
 public class IdealBodyWeight {
 
