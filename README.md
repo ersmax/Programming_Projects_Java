@@ -21,4 +21,4 @@ Happy to help!
 
 ## Projects Set 2
 
-1. [Babylonian_Algorithm](src/Projects_set2/Project_01_Babylonian_Algorithm) - Approximates the square root of a positive number using the Babylonian algorithm (iterative method).
+1. [Babylonian_Algorithm](src/Projects_set2/Project_01_Babylonian_Algorithm) - Approximates the square root of a positive number using the Babylonian algorithm.
