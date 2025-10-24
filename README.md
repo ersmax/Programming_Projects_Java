@@ -1,5 +1,5 @@
 This repository contains a list of practical and real life problems.
-THe solutions proposed are entirely coded in Java 8 and developed by me.
+The solutions proposed are entirely coded in Java 8 and developed by me.
 
 Please contact me if you have any questions or suggestions.
 Happy to help!
@@ -17,7 +17,7 @@ Happy to help!
 7. [Time_conversion](src/Projects_set1/Project_07_Time_conversion) - Converts a total number of seconds into hours, minutes, and seconds.
 8. [Naming_Convention](src/Projects_set1/Project_08_Naming_Convention) - Refactors a program to follow proper Java naming and formatting conventions.
 9. [Ideal_Body_Weight](src/Projects_set1/Project_09_Ideal_Body_Weight) - Calculates ideal body weight based on height in feet and inches.
-10. [Letal_Caffeine_Intake](src/Projects_set1/Project_10_Letal_Caffeine_Intake) - Estimates how many caffeinated drinks would result in a lethal dose.
+10. [Lethal_Caffeine_Intake](src/Projects_set1/Project_10_Letal_Caffeine_Intake) - Estimates how many caffeinated drinks would result in a lethal dose.
 
 ## Projects Set 2
 
