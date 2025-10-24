@@ -2,7 +2,17 @@ package Projects_set2.Project_04_Time_travel;
 
 import java.util.Scanner;
 
+/**
+ * This program calculates the time required to travel a given distance at a given speed.
+ * It prompts the user to enter the distance and speed, performs input validation,
+ * and handles potential arithmetic exceptions.
+ */
 public class TimeTravel {
+
+    /**
+     * The main method to execute the time travel calculation.
+     * @param args Command line arguments (not used).
+     */
     public static void main(String[] args) {
         double distance, speed;
         Scanner keyboard = new Scanner(System.in);

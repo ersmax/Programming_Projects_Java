@@ -4,8 +4,22 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
+
+/** * This program prompts the user to input a dividend and a divisor,
+ * performs division and modulus operations, and displays the results
+ * formatted to two decimal places. It handles invalid inputs and division
+ * by zero gracefully, allowing the user to repeat the process.
+ *
+ * @version 1.0
+ * @author admin
+ */
 public class MathOperations {
 
+    /** The main method to run the MathOperations program.
+     * It handles user input and controls the flow of the program.
+     *
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int dividend, divisor;
@@ -26,6 +40,12 @@ public class MathOperations {
         keyboard.close();
     }
 
+    /** Prompts the user to input a dividend and a divisor,
+     * ensuring valid integer inputs.
+     *
+     * @param keyboard Scanner object for user input.
+     * @return An array containing the dividend and divisor.
+     */
     public static int[] insertion(Scanner keyboard) {
         int dividend, divisor;
 
@@ -53,6 +73,13 @@ public class MathOperations {
         return new int[] {dividend, divisor};
     }
 
+    /** Performs division and modulus operations on the given
+     * dividend and divisor, displaying the results formatted
+     * to two decimal places. Handles division by zero.
+     *
+     * @param dividend The dividend for the division operation.
+     * @param divisor The divisor for the division operation.
+     */
     public static void display(int dividend, int divisor) {
         DecimalFormat pattern0dot00 = new DecimalFormat("0.00");
         double quotient, remainder;

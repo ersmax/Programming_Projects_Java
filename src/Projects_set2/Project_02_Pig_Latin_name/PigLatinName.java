@@ -2,11 +2,27 @@ package Projects_set2.Project_02_Pig_Latin_name;
 
 import java.util.Scanner;
 
-
+/**
+ * Pig Latin Name Converter
+ *
+ * This program converts names into Pig Latin format.
+ * The first letter of each name is moved to the end, followed by "ay".
+ * The first letter of the resulting Pig Latin name is capitalized.
+ *
+ * Example:
+ * Input: John Doe
+ * Output: Ohnjay Oeday
+ *
+ * The program continues to prompt for new names until an empty line is entered.
+ */
 public class PigLatinName {
 
     public static final String PREFIX = "ay";
 
+    /** Main method to run the Pig Latin name converter.
+     *
+     * @param args Command line arguments (not used).
+     */
     public static void main(String[] args) {
 
         System.out.println("New name? (enter to exit)");
@@ -43,6 +59,11 @@ public class PigLatinName {
         keyboard.close();
     }
 
+    /** Convert a word to Pig Latin format.
+     *
+     * @param word The input word to convert.
+     * @return The Pig Latin version of the word.
+     */
     public static String toPigLatin(String word) {
         if (word == null) return "";
 
