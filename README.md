@@ -23,4 +23,4 @@ Happy to help!
 
 1. [Babylonian_Algorithm](src/Projects_set2/Project_01_Babylonian_Algorithm) - Approximates the square root of a positive number using the Babylonian algorithm.
 2. [Pig name (input)](src/Projects_set2/Project_02_Pig_Latin_name) - Reads full names from standard input and converts each token to Pig Latin (move first letter to end + `ay`), normalizes capitalization.
-3. [Math Operations](src/Projects_set2/Project_03_Math_operations) - Console program: reads dividend & divisor, validates input, prints quotient (formatted) and remainder.
+3. [Math Operations](src/Projects_set2/Project_03_Math_operations) - Reads dividend & divisor, validates input, prints quotient (formatted) and remainder.
