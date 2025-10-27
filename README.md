@@ -24,4 +24,6 @@ Happy to help!
 1. [Babylonian_Algorithm](src/Projects_set2/Project_01_Babylonian_Algorithm) - Approximates the square root of a positive number using the Babylonian algorithm.
 2. [Pig name (input)](src/Projects_set2/Project_02_Pig_Latin_name) - Reads full names from standard input and converts each token to Pig Latin (move first letter to end + `ay`), normalizes capitalization.
 3. [Math Operations](src/Projects_set2/Project_03_Math_operations) - Reads dividend & divisor, validates input, prints quotient (formatted) and remainder.
-4. [Time travel](`src/Projects_set2/Project_04_Time_travel`) - Calculates travel time with input validation.
+4. [Time travel](src/Projects_set2/Project_04_Time_travel) - Calculates travel time with input validation.
+5. [GPA](src/Projects_set2/Project_05_GPA) - Calculates GPA on a 4.0 scale from a percentage and formats the output.
+6. [Artificial Sweetener](src/Projects_set2/Project_06_Artificial_Sweetner) - Computes the maximum number of diet sodas a person can safely drink based on lethal sweetener dose and weight.
