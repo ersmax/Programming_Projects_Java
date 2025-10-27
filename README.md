@@ -27,3 +27,5 @@ Happy to help!
 4. [Time travel](src/Projects_set2/Project_04_Time_travel) - Calculates travel time with input validation.
 5. [GPA](src/Projects_set2/Project_05_GPA) - Calculates GPA on a 4.0 scale from a percentage and formats the output.
 6. [Artificial Sweetener](src/Projects_set2/Project_06_Artificial_Sweetner) - Computes the maximum number of diet sodas a person can safely drink based on lethal sweetener dose and weight.
+7. [Change Vending machine](src/Projects_set2/Project_07_Change_Vending_machine) - Computes change to dispense when a customer pays with a dollar for an item priced between 25 and 100 cents (in 5-cent increments).
+8. [Line reader](src/Projects_set2/Project_08_Line_Reader) - Reads a single line containing three comma-separated words and prints each word on its own line.
