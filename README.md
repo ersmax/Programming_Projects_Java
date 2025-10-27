@@ -29,3 +29,5 @@ Happy to help!
 6. [Artificial Sweetener](src/Projects_set2/Project_06_Artificial_Sweetner) - Computes the maximum number of diet sodas a person can safely drink based on lethal sweetener dose and weight.
 7. [Change Vending machine](src/Projects_set2/Project_07_Change_Vending_machine) - Computes change to dispense when a customer pays with a dollar for an item priced between 25 and 100 cents (in 5-cent increments).
 8. [Line reader](src/Projects_set2/Project_08_Line_Reader) - Reads a single line containing three comma-separated words and prints each word on its own line.
+9. [Word Replacement](src/Projects_set2/Project_09_Word_Replacement) - Replaces the first occurrence of a specified word in a sentence with another word, using standard input. 
+   Check that the word is not a substring of another word and case sensitivity is handled.
