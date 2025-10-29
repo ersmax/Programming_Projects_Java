@@ -45,4 +45,10 @@ Happy to help!
     Example output:
     <div>
       <img src="src/Projects_set2/Project_11_Grades/Grades.PNG" alt="Grades screenshot" width="480" />
-    </div>
+    </div>    
+
+12. [File Text Replacement](src/Projects_set2/Project_12_File_Text_Replacement) - 
+    Reads a text file, replaces all occurrences of a specified word with another word, 
+    and writes the modified content to the screen. Handles file I/O exceptions, 
+    and ensures the original file remains unchanged.
+    
