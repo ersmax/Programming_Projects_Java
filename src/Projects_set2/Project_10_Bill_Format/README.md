@@ -72,7 +72,7 @@ Currency values are displayed with two decimal places and aligned into columns.
 \- `javac -d out\production\Project src\...\Item.java src\...\Bill_Format.java`  
 \- `java -cp out\production\Project Projects_set2.Project_10_Bill_Format.Bill_Format`
 
-## Sample interaction (trimmed)
+## Sample interaction
 
 <div>
 <img src="./Bill.PNG" alt="Bill screenshot" width="480" />

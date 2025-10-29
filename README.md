@@ -31,3 +31,10 @@ Happy to help!
 8. [Line reader](src/Projects_set2/Project_08_Line_Reader) - Reads a single line containing three comma-separated words and prints each word on its own line.
 9. [Word Replacement](src/Projects_set2/Project_09_Word_Replacement) - Replaces the first occurrence of a specified word in a sentence with another word, using standard input. 
    Check that the word is not a substring of another word and case sensitivity is handled.
+10. [Bill Format](src/Projects_set2/Project_10_Bill_Format) - 
+   Reads item prices and quantities, calculates subtotal, tax, and total, and prints a formatted bill.
+   Structure item data in a separate class. 
+   Example output: 
+    <div>
+      <img src="src/Projects_set2/Project_10_Bill_Format/Bill.PNG" alt="Bill screenshot" width="480" />
+    </div>
