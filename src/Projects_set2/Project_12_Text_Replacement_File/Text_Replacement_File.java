@@ -13,7 +13,7 @@ import java.io.FileNotFoundException;
  */
 public class Text_Replacement_File {
 
-    public static final String PATH =
+    private static final String PATH =
             "src/Projects_set2/Project_12_Text_Replacement_File/Example.txt";
     public static final String REPLACED = "hate";
     public static final String REPLACING = "love";
