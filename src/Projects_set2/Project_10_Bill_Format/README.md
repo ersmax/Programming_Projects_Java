@@ -74,7 +74,7 @@ Currency values are displayed with two decimal places and aligned into columns.
 
 ## Sample interaction (trimmed)
 
-![Bill screenshot](`Bill.PNG`)
+![Bill screenshot](`Projects_set_2_\Project_10_Bill_Format\Bill.PNG`)
 
 
 ## Notes and possible improvements
