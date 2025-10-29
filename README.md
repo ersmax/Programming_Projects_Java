@@ -52,3 +52,7 @@ Happy to help!
     and writes the modified content to the screen. Handles file I/O exceptions, 
     and ensures the original file remains unchanged.
     
+13. [BMI From File](src/Projects_set2/Project_13_BMI_From_File) - 
+    Reads weight and height data from a file, calculates BMI for each entry, 
+    and outputs the results formatted to one decimal place. 
+    Handles file I/O exceptions and invalid data.
