@@ -33,8 +33,16 @@ Happy to help!
    Check that the word is not a substring of another word and case sensitivity is handled.
 10. [Bill Format](src/Projects_set2/Project_10_Bill_Format) - 
    Reads item prices and quantities, calculates subtotal, tax, and total, and prints a formatted bill.
-   Structure item data in a separate class. 
-   Example output: 
+   Structure item data in a separate class.
+    Example output:
     <div>
       <img src="src/Projects_set2/Project_10_Bill_Format/Bill.PNG" alt="Bill screenshot" width="480" />
+    </div>
+
+11. [Grades](src/Projects_set2/Project_11_Grades) - 
+   Reads three exercises with names, scores, and total possible points; prints a formatted table and overall percentage.
+   Uses a simple class to hold exercise data.
+    Example output:
+    <div>
+      <img src="src/Projects_set2/Project_11_Grades/Grades.PNG" alt="Grades screenshot" width="480" />
     </div>
