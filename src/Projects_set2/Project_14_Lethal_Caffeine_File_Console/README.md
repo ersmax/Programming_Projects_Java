@@ -20,9 +20,9 @@ of caffeine consumed at one time is a lethal overdose. Each program uses the sam
 but differs in how it obtains input.
 
 ## Files of interest
-- `src/Projects_set2/Project_14_Lethal_Caffeine_File_Console/Lethal_Caffeine_Console.java` — console input version
-- `src/Projects_set2/Project_14_Lethal_Caffeine_File_Console/Lethal_Caffeine_File.java` — file input version
-- `src/Projects_set2/Project_14_Lethal_Caffeine_File_Console/DrinkCaffeine.java` — simple data holder class
+- `Lethal_Caffeine_Console.java` — console input version
+- `Lethal_Caffeine_File.java` — file input version
+- `DrinkCaffeine.java` — simple data holder class
 - (input file expected by the file version) `Caffeine.txt` (path configured by the `PATH` constant in `Lethal_Caffeine_File.java`)
 
 ## Shared logic
