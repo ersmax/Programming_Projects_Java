@@ -56,3 +56,8 @@ Happy to help!
     Reads weight and height data from a file, calculates BMI for each entry, 
     and outputs the results formatted to one decimal place. 
     Handles file I/O exceptions and invalid data.
+
+14. [Lethal Caffeine File & Console](src/Projects_set2/Project_14_Lethal_Caffeine_File_Console) - 
+    Reads caffeine data from a file having a list of drinks and from console input, 
+    calculates the maximum number of caffeinated drinks that would result in a lethal dose, 
+    and outputs the result, while handling file reading and tabulation.

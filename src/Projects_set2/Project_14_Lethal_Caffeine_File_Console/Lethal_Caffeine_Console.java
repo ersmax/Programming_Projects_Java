@@ -13,7 +13,7 @@ drink from a file named drink.txt and output the answer to the console.
  */
 
 
-package Projects_set2.Project_14_Lethal_caffeine;
+package Projects_set2.Project_14_Lethal_Caffeine_File_Console;
 
 import java.util.Scanner;
 

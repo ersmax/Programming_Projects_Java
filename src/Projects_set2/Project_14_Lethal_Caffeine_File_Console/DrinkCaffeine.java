@@ -1,4 +1,4 @@
-package Projects_set2.Project_14_Lethal_caffeine;
+package Projects_set2.Project_14_Lethal_Caffeine_File_Console;
 
 public class DrinkCaffeine {
     private final String drink;
