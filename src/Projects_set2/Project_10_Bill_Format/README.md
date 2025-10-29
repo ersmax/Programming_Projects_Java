@@ -75,6 +75,9 @@ Currency values are displayed with two decimal places and aligned into columns.
 ## Sample interaction (trimmed)
 
 ![Bill screenshot](./Bill.PNG)
+<div>
+<img src="./Bill.PNG" alt="Bill screenshot" width="480" />
+</div>
 
 
 ## Notes and possible improvements
