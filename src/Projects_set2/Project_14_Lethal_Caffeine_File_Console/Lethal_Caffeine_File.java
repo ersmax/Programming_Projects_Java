@@ -5,6 +5,11 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Vector;
 
+/** This program reads drink names and their caffeine content from a file,
+ * calculates the lethal dose for each drink, and outputs the results to the console.
+ * @author admin
+ *
+ */
 public class Lethal_Caffeine_File {
 
     private static final String PATH =
@@ -36,6 +41,8 @@ public class Lethal_Caffeine_File {
             String dummy = parser.next().trim();
 
             double gCaffeine = Double.parseDouble(dummy);
+
+            // Please read the alternative implementation in the README.md
             gCaffeine /= 1000;
             drinksList.add(new DrinkCaffeine(drink, gCaffeine));
             parser.close();

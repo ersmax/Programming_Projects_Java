@@ -1,5 +1,10 @@
 package Projects_set2.Project_14_Lethal_Caffeine_File_Console;
 
+/** This class represents a drink with its name and caffeine content in milligrams.
+ * It provides methods to access these attributes.
+ * @author admin
+ *
+ */
 public class DrinkCaffeine {
     private final String drink;
     private final double caffeineMg;
