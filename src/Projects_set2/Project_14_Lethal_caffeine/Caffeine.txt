@@ -1,0 +1,4 @@
+coffee, 160
+tea 100
+coca-cola, 80
+chocolate  50
