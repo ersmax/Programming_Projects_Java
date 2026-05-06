@@ -13,7 +13,7 @@ import java.util.Vector;
 public class Lethal_Caffeine_File {
 
     private static final String PATH =
-            "src/Projects_set2/Project_14_Lethal_caffeine/Caffeine.txt";
+            "src/Projects_set2/Project_14_Lethal_Caffeine_File_Console/Caffeine.txt";
     private static final int LETHAL_GRAMS = 10;
     private static final double EPS = 1e-9;
 
